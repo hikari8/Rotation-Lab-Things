@@ -1,0 +1,4 @@
+sort -nk 9 ER4_peaks.narrowPeak | tail -n 100 > ChIP100
+
+doc jaspar2meme.html
+-meme-chip -meme-maxsites 25 
